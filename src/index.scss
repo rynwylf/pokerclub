@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+body
+{
+	background-color: $gray;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@font-face
+{
+	font-family: 'ApexBold';
+	src: url("./fonts/ApexMk2-BoldExtended.otf") format('opentype');
+}
+
+@font-face
+{
+	font-family: 'ApexLight';
+	src: url("./fonts/ApexMk2-LightCondensed.otf") format('opentype');
+}
+
+@font-face
+{
+	font-family: 'ApexRegular';
+	src: url("./fonts/ApexMk2-Regular.otf") format('opentype');
+}
+
+h1
+{
+	font-family: ApexBold;
+}
+
+h2
+{
+	font-family: ApexLight;
+}
+
+h3
+{
+	font-family: ApexRegular;
+}
