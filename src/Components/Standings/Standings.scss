@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.standing th,
+.standing td
+{
+	padding: $spacing-nano;
+	text-align: left;
+}
+
+
+@media only screen and (min-width: 768px)
+{
+
+}

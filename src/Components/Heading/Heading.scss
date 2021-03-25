@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+
+.heading
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo
+{
+	background-image: url('logo192.png');
+	background-size: contain;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+.heading h1
+{
+	font-size: 2em;
+	display: inline-block;
+	padding: 0px 0px 0px $spacing-small;
+	margin: 0px;
+}
+
+@media only screen and (min-width: 768px)
+{
+	.logo
+	{
+		height: 100px;
+		width: 100px;
+	}
+
+	.heading h1
+	{
+		font-size: 4em;
+		display: inline-block;
+		padding: 0px 0px 0px $spacing-medium;
+	}
+}

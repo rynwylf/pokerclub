@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.block
+{
+	display: inline-block;
+	background-color: $teal;
+	border-radius: 16px;
+	padding: $spacing-large;
+}

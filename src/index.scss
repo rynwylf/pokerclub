@@ -3,9 +3,10 @@
 body
 {
 	background-color: $gray;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Lexend', sans-serif;
 }
 
 
@@ -30,14 +31,33 @@ body
 h1
 {
 	font-family: ApexBold;
+	text-align: center;
+	font-size: 3em;
+	padding: 0px 0px $spacing-medium 0px;
+	margin: 0px;
+}
+
+p
+{
+	padding: 0px 0px $spacing-small 0px;
+	margin: 0px;
 }
 
 h2
 {
 	font-family: ApexLight;
+	text-align: center;
+	font-size: 2em;
+	padding: 0px 0px $spacing-medium 0px;
+	margin: 0px;
 }
 
 h3
 {
 	font-family: ApexRegular;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0px 0px $spacing-medium 0px;
+	padding: 0px;
+	margin: 0px;
 }

@@ -1,0 +1,44 @@
+@import "../../../variables.scss";
+
+.movement
+{
+	background-size: contain;
+	height: 18px;
+	width: 30px;
+	color: $gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.number
+{
+	display: block;
+	font-family: ApexBold;
+	font-size: 10pt;
+}
+
+.flat
+{
+	display: none;
+}
+
+.up
+{
+	background-image: url('arrowup.svg');
+}
+
+.up span
+{
+	margin-top: 3px;
+}
+
+.down
+{
+	background-image: url('arrowdown.svg');
+}
+
+.down span
+{
+	margin-bottom: 1px;
+}

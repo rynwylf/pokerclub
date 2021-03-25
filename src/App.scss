@@ -6,6 +6,27 @@
 	text-align: center;
 }
 
+.container
+{
+	padding: $spacing-small;
+}
+
+.blockGroup
+{
+	padding: $spacing-large 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+@media only screen and (min-width: 768px)
+{
+	.container
+	{
+		padding: $spacing-medium;
+	}
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
