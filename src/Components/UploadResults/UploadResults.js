@@ -22,6 +22,8 @@ const UploadResults = () =>
 	else
 	{
 		return <div className="upload-results">
+					<h1>Upload</h1>
+					<p>Upload a PokerNow CSV log to view results in your browser</p>
 					<CSVReader onDrop={(data) => setData ( parseFile ( data ) ) }
 							style={{ display: "block"}}
 							onError={(error) => {setError(error)}}>

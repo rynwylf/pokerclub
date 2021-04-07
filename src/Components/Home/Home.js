@@ -5,6 +5,7 @@ import './Home.scss';
 
 const Home = ( props ) =>
     <div className="home">
+		<h1>Options</h1>
 		<Link to='/results/1-apr-21'>
 			<button>1-April-2021</button>
 		</Link>
