@@ -8,9 +8,9 @@ const Home = ( props ) =>
 		<Link to='/results/1-apr-21'>
 			<button>1-April-2021</button>
 		</Link>
-		
+
 		<Link to='/upload'>
-			<button>Upload Game Log</button>
+			<button>View Game Log</button>
 		</Link>
     </div>
 
