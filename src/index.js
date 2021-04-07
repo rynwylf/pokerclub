@@ -1,17 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Amplify from "aws-amplify";
-import awsExports from "./aws-exports";
-
-import './fonts/ApexMk2-BoldExtended.otf';
-import './fonts/ApexMk2-LightCondensed.otf';
-import './fonts/ApexMk2-Regular.otf';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-Amplify.configure(awsExports);
 
 ReactDOM.render(
   <React.StrictMode>

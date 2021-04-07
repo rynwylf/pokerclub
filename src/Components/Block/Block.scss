@@ -4,6 +4,21 @@
 {
 	display: inline-block;
 	background-color: $teal;
-	border-radius: 16px;
-	padding: $spacing-large;
+	border-radius: 0px;
+	padding: 0px $spacing-large $spacing-large $spacing-large;
+	margin: 0px;
+}
+
+.block h2
+{
+	color: white;
+}
+
+@media only screen and (min-width: $mobile-break)
+{
+	.block
+	{
+		border-radius: 16px;
+		padding: $spacing-large $spacing-huge $spacing-huge $spacing-huge;
+	}
 }

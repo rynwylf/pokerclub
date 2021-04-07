@@ -2,6 +2,7 @@
 
 .heading
 {
+	margin: $spacing-large;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -11,23 +12,27 @@
 
 .logo
 {
+	display: inline-block;
 	background-image: url('logo192.png');
 	background-size: contain;
 	height: 50px;
 	width: 50px;
-	display: inline-block;
 }
 
 .heading h1
 {
-	font-size: 2em;
+	font-size: 0.85em;
 	display: inline-block;
 	padding: 0px 0px 0px $spacing-small;
-	margin: 0px;
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: $mobile-break)
 {
+	.heading
+	{
+		margin: 0px;
+	}
+
 	.logo
 	{
 		height: 100px;
@@ -36,7 +41,7 @@
 
 	.heading h1
 	{
-		font-size: 4em;
+		font-size: 2em;
 		display: inline-block;
 		padding: 0px 0px 0px $spacing-medium;
 	}

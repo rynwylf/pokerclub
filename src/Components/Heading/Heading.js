@@ -5,7 +5,7 @@ import './Heading.scss';
 const Heading = ( props ) =>
     <div className="heading">
 		<span className="logo" />
-		<h1>Poker Club</h1>
+		<h1>Thursday Night Poker</h1>
     </div>
 
 

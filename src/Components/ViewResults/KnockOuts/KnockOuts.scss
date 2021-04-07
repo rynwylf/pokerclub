@@ -1,0 +1,24 @@
+@import "../../../variables.scss";
+
+.out
+{
+	text-align: left;
+	padding: $spacing-tiny $spacing-tiny $spacing-tiny 0px;
+}
+
+.time
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.koby
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+@media only screen and (min-width: 768px)
+{
+
+}

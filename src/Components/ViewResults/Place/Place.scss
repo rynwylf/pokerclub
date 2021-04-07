@@ -1,0 +1,55 @@
+@import "../../../variables.scss";
+
+.name
+{
+	text-align: left;
+	padding: $spacing-tiny $spacing-tiny $spacing-tiny 0px;
+}
+
+.rebuys
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.place
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.knockOuts
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.points
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.vpip
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.pfr
+{
+	text-align: right;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+.style
+{
+	text-align: left;
+	padding: $spacing-tiny 0px $spacing-tiny $spacing-large;
+}
+
+
+@media only screen and (min-width: 768px)
+{
+
+}

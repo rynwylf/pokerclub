@@ -1,0 +1,63 @@
+@import "../../variables.scss";
+
+.game-results
+{
+	padding-top: $spacing-medium;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.game
+{
+	margin: $spacing-huge;
+	width: 100%;
+}
+
+.blocks
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.blocks div
+{
+	margin: $spacing-large 0px;
+}
+
+.blocks div table
+{
+	margin: 0 auto;
+	color: white;
+}
+
+.blocks th
+{
+	font-size: 0.75em;
+}
+
+.blocks td
+{
+	font-size: 0.75em;
+}
+
+@media only screen and (min-width: $mobile-break)
+{
+	.blocks
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: stretch;
+	}
+
+	.blocks div
+	{
+		margin: $spacing-large;
+	}
+}

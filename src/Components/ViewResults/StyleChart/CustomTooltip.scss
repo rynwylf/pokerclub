@@ -1,0 +1,41 @@
+@import "../../../variables.scss";
+
+
+.tip
+{
+	border: 1px solid $black;
+	border-radius: $spacing-tiny;
+	background: white;
+}
+
+p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nameTitle
+{
+	display: block;
+	text-align: center;
+	margin: $spacing-small 0px $spacing-small $spacing-small;
+	font-weight: bold;
+}
+
+table
+{
+	font-size: 0.75em;
+	padding: 0px;
+	margin: 0px $spacing-large $spacing-small $spacing-large;
+}
+
+.label
+{
+	padding: $spacing-tiny;
+}
+
+.value
+{
+	text-align: right;
+	padding: $spacing-tiny $spacing-tiny $spacing-tiny $spacing-large;
+}
